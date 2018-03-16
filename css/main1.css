@@ -1,0 +1,22 @@
+.flex{
+	display: flex;
+	border: #edf;
+	flex-direction:middle;
+	width:45%;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right:auto;
+
+}
+h2{
+	display:solid black;
+	background-color:#efffff;
+}
+h3{
+	display:solid black;
+	background-color:solid aqua;
+}
+table,tr,td,th{
+	border:solid 3px pink;
+	text-align:center;
+}

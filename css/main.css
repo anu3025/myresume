@@ -1,0 +1,83 @@
+body{
+	background-color: #ec1234;
+}
+.parent{
+	display:flex;
+	flex-direction:row;
+}
+.leftchild{
+	width:30%;
+	background-color: #efcccd;
+	padding: 0.2%;
+	margin: 0.2%;
+}
+.rightchild{
+	width:70%;
+	background-color: #edddd3;
+	padding: 0.3%;
+	margin: 0.3%;
+}
+.profile-image{
+	display:block;
+	border-radius: 75%;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2,h3,h4,h5{
+	text-align:center;
+}
+@media only screen and (min-width:325px) and (max-width:468px){
+.parent{
+	display:flex;
+	flex-direction:column;
+}
+.leftchild{
+	width:100%;
+	background-color: #efcccd;
+	padding: 2%;
+	margin: 2%;
+}
+.rightchild{
+	width:100%;
+	background-color: #edddd3;
+	padding: 3%;
+	margin: 3%;
+}
+}
+@media only screen and(min-width:469px) and(max-width:768px){
+.parent{
+	display:flex;
+	flex-direction:row;
+}
+.leftchild{
+	width:100%;
+	background-color: #efcccd;
+	padding: 2%;
+	margin: 2%;
+}
+.rightchild{
+	width:100%;
+	background-color: #edddd3;
+	padding: 3%;
+	margin :3%;
+}
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+.parent{
+	display:flex;
+	flex-direction:row;
+}
+.leftchild{
+	width:100%;
+	background-color: #efcccd;
+	padding:2%;
+	margin:2%;
+}
+.rightchild{
+	width:100%;
+	background-color: #edddd3;
+	padding:3%;
+	margin:3%;
+}
+}

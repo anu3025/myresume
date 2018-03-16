@@ -1,0 +1,22 @@
+{
+	"basic":{
+		"objective":"My career objective is to make myself a good technical engineering and to achieve good heights in the field of IT.To be selected in a reputed IT firm where I can get a nice pacakage.To strengthen my knowledge and help the company to grow."
+	},
+"education":[
+{
+	"degree":"B.Tech(computer Science Engineering)",
+	"college":"KLMCEW",
+	"data":["2015-19","65%"]
+},
+{
+	"degree":"Intermediate(MPC)",
+	"college":"Abhyas jr college",
+	"data":["2013-15","80%"]
+},
+{
+	"degree":"SSC",
+	"school":"Sarada high school",
+	"data":["2013","90%"]
+}
+]
+}
